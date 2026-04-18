@@ -1,0 +1,112 @@
+\documentclass[10pt,a4paper]{article}
+
+%----------------------- Packages ------------------------
+\usepackage[left=1.2cm,right=1.2cm,top=1.2cm,bottom=1.2cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+\hypersetup{
+	colorlinks=true,
+	urlcolor=black
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+
+% -------------------- Section Formatting --------------------
+\titleformat{\section}
+{\large\bfseries}
+{}
+{0pt}
+{}
+[\titlerule]
+
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+%-------------------- Custom Commands ----------------------------
+\newcommand{\resumeItem}[1]{
+	\item \small{#1}
+}
+
+
+%----------------------- Document ----------------------------------
+\begin{document}
+	
+%------------------------- Header -------------------------------	
+\begin{center}
+{\Large\textbf{MANUEL TABAREZ ARELLANO}} \\[4pt]
+\textbf{Embedded Software Engineer - Automotive} \\[6pt]
+Zapopan, Jalisco, Mexico \\
+\textbf{Phone:} \href{tel: +523481163235}{+52 348-116-3235} \;|\;
+\href{mailto:manuel.tabarez.arellano@gmail.com}{manuel.tabarez.arellano@gmail.com} \;|\;
+\textbf{LinkedIn: }\href{https://www.linkedin.com/in/manuel-alejandro-tabarez-arellano}{Manuel Tabarez}
+
+\end{center}
+	
+%------------------------ Professional Summary -------------------------------
+\section{Professional Summary}
+Embedded Software Engineer with 4+ years of experience in automotive embedded systems, specializing in Embedded C development, AUTOSAR-based software architecture, and ECU integration for Body Control Modules (BCM) including actuator control, diagnostics, and CAN-based communication following ASPICE, V-Model, and Agile methodologies. Strong experience in software requirements, architecture, unit and integration testing, and HIL/SIL validation using industry-standard automotive tools.
+
+%------------------------ Technical Skills ---------------------------------
+\section{Technical Skills}
+\small
+\textbf{Embedded:} C/C++, AUTOSAR Classic (BSW, RTE, SWC), Real-Time Systems, ISO 26262 awareness, ARM-based microcontrollers \\
+\textbf{Automotive \& Communication:} CAN, LIN, CANoe, CANalyzer, EB tresos, iSYSTEM \\
+\textbf{Testing \& Validation:} Unit \& Integration Testing, SIL/HIL, Jenkins CI, Python, Bash \\
+\textbf{Simulation \& ECAD:} FluidSIM, Cadence Allegro (PCB Design) \\
+\textbf{Model-Based Development:} MATLAB, Simulink \\
+\textbf{Tools \& CM:} Git/GitHub, Linux, IBM DOORS, IBM Rhapsody \\
+\textbf{Methods:} ASPICE, V-Model, Agile / Scrum
+
+%-------------------------- Professional Experience -------------------------
+\section{Professional Experience}
+\textbf{R\&D Embedded Software Engineer (Intermediate)} \hfill Sep 2023 -- Aug 2024 \\
+\textit{Continental Automotive – Guadalajara, Mexico (BCM)}
+\begin{itemize}[leftmargin=*]
+	\resumeItem{Developed embedded C software for automotive ECUs following AUTOSAR architecture}
+	\resumeItem{Analyzed and implemented software requirements using IBM DOORS, ensuring traceability and ASPICE compliance}
+	\resumeItem{Designed software architecture and component-level interfaces}
+	\resumeItem{Executed unit and integration testing according to ASPICE guidelines}
+	\resumeItem{Automated SIL and HIL test execution using CANoe and iSYSTEM debugger, reducing manual testing effort}
+	\resumeItem{Developed and maintained CI pipelines for build and test automation}
+	\resumeItem{Performed root cause analysis and debugging during integration and validation phases in collaboration with system and hardware teams}
+\end{itemize}
+
+\textbf{R\&D Embedded Software Engineer (Junior)} \hfill Apr 2022 -- Sep 2023 \\
+\textit{Continental Automotive – Guadalajara, Mexico}
+\begin{itemize}[leftmargin=*]
+	\resumeItem{Developed and integrated embedded software components in C}
+	\resumeItem{Supported AUTOSAR-based software integration}
+	\resumeItem{Executed unit verification and integration testing}
+	\resumeItem{Supported Configuration Management by migrating multiple source code repositories from IMS Integrity to Git/GitHub, improving version control usability and supporting standardized branching strategies}
+\end{itemize}
+
+\textbf{Automation Technician} \hfill Jun 2019 -- May 2020 \\
+\textit{Jabil Circuit de Mexico}
+\begin{itemize}[leftmargin=*]
+	\resumeItem{Support automated assembly line of 6 robots, and automation applications within site (Labeling, screwing, 3D inspection, laser marking).}
+	\resumeItem{Troubleshooting of pneumatics, electrical, and mechanics within automated applications.}
+	\resumeItem{Develop automatic inspection improvement for peel-off reducing scrap units by 70\%}
+\end{itemize}
+
+%---------------------------- Education ------------------------------------
+\section{Education}
+\textbf{B.Sc. Robotics Engineering} — CUCEI, University of Guadalajara \hfill 2016 -- 2021 \\
+Relevant focus: \\
+\small
+Embedded System Programming -- Control Systems -- Robotics \& Intelligent Systems -- PCB Design 
+
+%--------------------------- Training --------------------------------
+\section{Diplomas \& Specialized Training}
+
+\textbf{Diploma in Automotive Embedded Systems} - CUCEI / Continental / NXP: Requirements Engineering and Architecture Design, AUTOSAR, RTOS, Functional Safety, Cybersecurity \\
+\textbf{Diploma in Firmware Verification for SSDs} - CUCEI / Solidigm: Embedded Architecture, PCIe, NVMe, Software Verification \\
+\textbf{Diploma in Verification of Digital Circuits} - CINVESTAV: UVM, SystemVerilog, Functional Verification
+
+%---------------------- Languages -----------------------------------
+\section{Languages}
+English - C1 (Advanced)
+
+\end{document}
+
